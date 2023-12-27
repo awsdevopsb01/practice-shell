@@ -7,3 +7,4 @@ Shell Scripting Topics
 2. networking
 3. sed
 4. ls
+5. echo
