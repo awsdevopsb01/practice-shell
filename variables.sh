@@ -5,5 +5,5 @@ echo ${a} $b
 
 dates="2023-12-29"
 echo $dates
-dates1=(date +%F)
-echo ${dates1}
+dates1=$(date +%F)
+echo $dates1
