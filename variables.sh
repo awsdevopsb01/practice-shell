@@ -8,10 +8,13 @@ echo $dates
 dates1=$(date +%F)
 echo $dates1
 
-b=(a * b + (2/3))
 
-abs2
-2as
+# Special Variables in Shell
 
-Abc
-abc
+echo Script Name $0
+echo First Argument $1
+echo Second Argument $2
+echo All Arguments $*
+echo All arguments2 $@
+echo number of arguments $#
+
