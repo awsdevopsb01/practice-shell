@@ -8,3 +8,4 @@ Shell Scripting Topics
 3. sed
 4. ls
 5. echo
+6. variables
