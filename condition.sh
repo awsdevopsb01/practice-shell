@@ -11,11 +11,11 @@
 
 
 fruit_name="papaya"
-quantity=5
+#quantity=5
 
-if [ "$fruit_name" == "papaya" ]
+if [ "$1" == "mango" ]
 then
-  echo " its fruit quantity: " $quantity
+  echo " its fruit quantity: " $2
 else
   echo " incorrect value"
 fi
