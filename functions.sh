@@ -13,9 +13,9 @@ func_name
 # $1 - $n, $*, $#
 
 func_arg_test() {
-  echo First Argument - $1
-  echo Second Argument - $2
-  echo All Arguments - $*
+  echo First Argument - "$1"
+  echo Second Argument - "$2"
+  echo All Arguments - "$*"
   echo Num of arguments - $#
 }
 
