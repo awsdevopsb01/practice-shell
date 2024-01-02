@@ -18,3 +18,4 @@ echo All Arguments - $*
 echo All arguments2 - $@
 echo number of arguments - $#
 
+# In Linux $? - stores the return code of the previous command
