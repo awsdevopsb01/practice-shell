@@ -19,3 +19,8 @@ then
 else
   echo " incorrect value"
 fi
+
+if [ -z "$fruit_quantity" ]
+then
+  echo "missing variable"
+fi
